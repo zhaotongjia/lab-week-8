@@ -1,0 +1,70 @@
+
+
+body {
+    background-color: #e5e5dc;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+header {
+    display: flex;
+    height: 30px;
+    background-color: #334259;
+    font-family: 'Montserrat Alternates', sans-serif;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+ul{
+    margin: 5px;
+}
+
+li, a{
+    text-decoration: none;
+    color: #e5e5dc;
+}
+
+li a:hover{
+    color:  #db504a
+}
+
+.link li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.content {
+    background-color: #db504a;
+}
+
+section{
+    display: grid;
+    padding-top: 20px;
+    width:100vw;
+    height:100vh;
+    grid-template-columns: 1fr, 2fr;
+}
+
+.right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+}
+.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+img {
+    max-width: 250px;
+    padding-left: 20px;
+}
+
+p{
+    max-width: 1000px;
+}
